@@ -1,0 +1,28 @@
+h1, h2 {
+    color:red;
+}
+
+#h1-name{
+    color:blue;
+}
+
+.texto-roxo{
+    color:purple;
+}
+
+#image{
+    margin:20px
+}
+
+#field{
+    color: red;
+    border: solid 8px ;
+    border-radius: 30px;
+    font-size: 10rem;
+    margin: 10rem;
+    cursor: pointer;
+
+    background: #dfdfa6;
+
+
+}
