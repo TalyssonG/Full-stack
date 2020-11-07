@@ -1,10 +1,10 @@
-h1, h2 {
-    color:red;
+h1,h2 {
+    font-size: 2rem;
+    color:#ffffff;
+    background-color: grey;
+    width: 50%;
 }
 
-#h1-name{
-    color:blue;
-}
 
 .texto-roxo{
     color:purple;
@@ -16,13 +16,49 @@ h1, h2 {
 
 #field{
     color: red;
-    border: solid 8px ;
+    border: solid 8px;
     border-radius: 30px;
-    font-size: 10rem;
-    margin: 10rem;
+    font-size: 3rem;
+    margin: 2rem;
     cursor: pointer;
 
     background: #dfdfa6;
 
 
+}
+
+#cm{
+background-color: red;
+width:10em;
+height:10em;
+}
+
+#mm{
+    background-color:blue;
+    width:50%;
+    height:5mm;   
+}
+
+#in{
+     background-color:green;
+     width:50%;
+     height:1in;
+}
+#px{
+     background-color: red;
+width:10px;
+height:10px;
+}
+
+
+#pt{
+    background-color:purple;
+width:10pt;
+height:10pt;
+}
+
+#pc{
+    background-color: grey;
+width:10pc;
+height:10pc;
 }
