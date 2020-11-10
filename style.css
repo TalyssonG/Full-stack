@@ -74,3 +74,15 @@ height:10pc;
     
 
 }
+.borda{
+
+    border-width: 5px;
+    border-style: hidden;
+    border-left-color:red;
+}   
+
+.quadradoborda{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
