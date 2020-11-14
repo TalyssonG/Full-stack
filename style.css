@@ -1,88 +1,73 @@
-h1,h2 {
-    font-size: 2rem;
-    color:#ffffff;
-    background-color: grey;
-    width: 50%;
+
+#quadrado{
+   width: 600px;
+   height: 200px;
+   position: absolute;
+
+  
+  
+   
 }
 
-
-.texto-roxo{
-    color:purple;
-}
-
-#image{
-    margin:20px
-}
-
-#field{
-    color: red;
-    border: solid 8px;
-    border-radius: 30px;
-    font-size: 3rem;
-    margin: 2rem;
-    cursor: pointer;
-
-    background: #dfdfa6;
-
+p{
+   color:black;
+   position: absolute;
+   margin: 3rem;
+   font-size: 25px;
 
 }
 
-#cm{
-background-color: red;
-width:10em;
-height:10em;
+div #insta{
+   margin-top: -240px;
+   position: absolute;
+   margin-left:55px ;
+   width:55px;
+   height: 55px;
 }
 
-#mm{
-    background-color:blue;
-    width:50%;
-    height:5mm;   
+ #nome {
+   margin-top: -220px;
+   position: absolute;
+   margin-left:115px ;
+   font-size:20px;
+   color:blue;
 }
 
-#in{
-     background-color:green;
-     width:50%;
-     height:1in;
+#Twitter{
+   margin-top: -180px;
+   position: absolute;
+   margin-left:55px ;
+   width:55px;
+   height: 55px;
 }
-#px{
-     background-color: red;
-width:10px;
-height:10px;
+
+#nomet{
+   margin-top: -160px;
+   position: absolute;
+   margin-left:115px ;
+   font-size:20px;
+   color:blue;
+}
+
+#yt{
+   margin-top: -120px;
+   position: absolute;
+   margin-left:55px ;
+   width:55px;
+   height: 55px;
+}
+
+#nomey{
+   margin-top: -100px;
+   position: absolute;
+   margin-left:115px ;
+   font-size:20px;
+   color:blue;
 }
 
 
-#pt{
-    background-color:purple;
-width:10pt;
-height:10pt;
+body{
+   background-color: black;
 }
 
-#pc{
-    background-color: grey;
-width:10pc;
-height:10pc;
-}
-#base{
-    height: 10px;
-    background-color: red;
-}
 
-#container{
-    background-color:blue;
-    color:white;
-    padding:10px 10px 10pt;
-    
-
-}
-.borda{
-
-    border-width: 5px;
-    border-style: hidden;
-    border-left-color:red;
-}   
-
-.quadradoborda{
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
-}
