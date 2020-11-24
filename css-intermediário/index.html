@@ -10,33 +10,63 @@
             font-size: 1.2rem;
             
         }
-        
-       li{
-           float: right;
-           list-style: none;
-           padding: 10px;
-           background-color: gray;
-           margin: 5px;
-       }
-       
-       
 
-      
+        .card{
+            position: relative;
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+        }
+
+        .card2{
+            clear: left;
+            float: left;
+            border: 2px solid red;
+            padding: 100px;
+        }
+
+        .c1{
+            background-color: red;
+            line-height: 200px;
+        }
+
+        .c2{
+            color:white;
+            position:absolute;
+            top:50%;
+            left: 50%;
+            background-color: blue;
+
+            transform: translate(-50%);
+            
+        }
+     
     </style>
 
 </head>
 
 <body>
     
+<div class="card">
+    <div class="c1">
+        Talysson Gadêlha
+    </div>
+</div>
 
+<div class="card">
+    <div class="c2">
+        Talysson Gadêlha
+    </div>
+</div>
 
-<div> 
+<div>
+    <div class="card2">
+        Talysson
+    </div>
+</div>
 
-<ul>
-    <li>Home</li>
-    <li>cursos</li>
-    <li>contatos</li>
-</ul>
 
 
 </body>
