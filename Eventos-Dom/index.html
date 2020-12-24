@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eventos DOM</title>
+    <script>
+        function changeh1(input) {
+            let h1 = document.getElementsByTagName('h1')[0]
+            h1.innerText = input.value;
+
+            
+        }
+
+        function butao(){
+            let button = document.getElementsByTagName('input')[1]
+            button.style.color = 'white'
+            button.style.background = 'green'
+            button.style.borderRadius = '10px'
+            button.style.width = '180px'
+            
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <h1>Click em mim</h1>
+
+    <input type="text" onchange="changeh1(this)">
+    <input type="submit"  onclick="butao()">
+</body>
+
+</html>
