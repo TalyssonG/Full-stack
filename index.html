@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    </style>
+
+    <script>
+        window.onload = function () {
+
+            let h1 = document.getElementsByTagName('h1')
+
+           
+           // let h1 = d1.children[0] //Pegar filhos
+           // console.log(h1.parentElement) //Pegar pai
+
+           for(let h of h1){
+            console.log(h1)
+
+            h.addEventListener("click", qop)
+           }
+
+           function qop(e){
+               let t = e.target;
+               console.log(t.parentElement)
+           }
+        }
+
+    </script>
+
+
+</head>
+
+<div id="d1">
+    <h1>Titulo 2</h1>
+    <p>Qualquer Texto 2</p>
+</div>
+
+<div id="d2">
+    <h1>Titulo 2</h1>
+    <p>Qualquer Texto 2</p>
+</div>
+
+<body>
+
+</body>
+
+</html>
