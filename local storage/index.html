@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+/*Armazenar strings ------------------------------------<
+        onload = () => { //Arrow-function
+
+            let nome = localStorage.getItem("nome"); //Pegar item
+            let h1 = document.getElementById('nome')
+            h1.innerHTML = nome;
+
+        }
+
+        function atualizar(element) {
+            let valor = element.value
+            console.log(valor);
+
+            let h1 = document.getElementById('nome')
+            h1.innerHTML = valor;
+
+            localStorage.setItem("nome", valor);
+        }
+*/
+/*Armazenar numeros ------------------------------------< */
+      //  let a = {
+      //      nome: "Talysson", n1: 7.5
+      //}
+
+       // localStorage.setItem("Aluno", JSON.stringify(a));
+       
+       let a = localStorage.getItem("Aluno")
+       console.log(JSON.parse(a))
+
+       //Remover tudo da mémoria
+       localStorage.clear();
+
+       
+
+
+    </script>
+
+
+</head>
+
+<body>
+    <h1 id="nome"></h1>
+    <input type="text" oninput="atualizar(this)">
+
+</body>
+
+</html>
